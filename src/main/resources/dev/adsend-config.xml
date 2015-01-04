@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd"> 
+<properties version="1.0"> 
+<!-- zhangfei  配置 -->
+<!-- 是否调试 -->
+<entry key="dev_test">true</entry> 
+<!--图片上传路径  209: /data/img/company/   38server /img/company/ F:\images\company\ --> 
+<entry key="img_upload_path">/adsend/img/company/</entry> 
+<!-- site img 上传路径 /adsend/img/site/-->
+<entry key="site_upload_path">E:\\gc\\tmp\\site\\</entry>
+<!-- site img 访问路径 -->
+<entry key="site_access_path">http://localhost:8888/site/</entry>
+<!-- 站点域名根 -->
+<entry key="site_root_domain">http://www.weium.com/</entry>
+
+<!-- 站点相册默认封面图片 -->
+<entry key="site_album_default">default.jpg</entry>
+
+<!-- site 全景相册 上传路径 /adsend/img/p3d/-->
+<entry key="site_p3d_upload_path">E:\\gc\\tmp\\p3d\\</entry>
+<!-- site 全景相册 访问路径 -->
+<entry key="site_p3d_access_path">http://sitep.weium.com/img/p3d/</entry>
+
+<entry key="wechat_get_token">https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=%appid%&amp;secret=%appsecret%</entry>
+
+<entry key="wechat_menu_create_url">https://api.weixin.qq.com/cgi-bin/menu/create?access_token=%token%</entry>
+
+<entry key="wechat_menu_get">https://api.weixin.qq.com/cgi-bin/menu/get?access_token=%token%</entry>
+
+<entry key="wechat_menu_delete">https://api.weixin.qq.com/cgi-bin/menu/delete?access_token=%token%</entry>
+
+<!-- wechatt domain -->
+<entry key="wechatt_domain">http://localhost:8080</entry>
+
+</properties> 
